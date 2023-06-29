@@ -1,5 +1,5 @@
 h1 {
-	background-color: darkgrey;
+	background-color: rgb(116, 116, 116);
 	text-align: center;
 }
 label {
@@ -11,11 +11,11 @@ label {
 	margin: 10px;
 }
 .colOne {
-	background-color: white;
-	/* darkkhaki */
+	background-color: rgb(255, 247, 247);
+	
 }
 .colTwo {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(210, 226, 255);
 }
 .histBtnRow {
 	margin-top: 5px;
