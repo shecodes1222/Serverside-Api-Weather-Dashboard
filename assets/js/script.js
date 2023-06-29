@@ -2,12 +2,12 @@ var key = '64f2ee2a8261daa4d9f780f5b365f275';
 var city = "Miami"
 
 
-//Grabs the current time and date
+//Retrieves current date and time
 var date = moment().format('dddd, MMMM Do YYYY');
 var dateTime = moment().format('YYYY-MM-DD HH:MM:SS')
 
 var cityHist = [];
-//Will save the text value of the search and save it to an array and storage
+//Following will save the text value as an  array and store it in local storage.
 $('.search').on("click", function (event) {
 	event.preventDefault();
 	city = $(this).parent('.btnPar').siblings('.textVal').val().trim();
