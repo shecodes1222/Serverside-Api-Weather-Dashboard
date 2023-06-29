@@ -30,3 +30,16 @@ label {
 .orange{
   background-color: orange;
 }
+.red{
+    background-color: red;
+  }
+  .purple{
+    background-color: purple;
+  }
+  .icons {
+      height: 70px;
+      width: 70px;
+  }
+  .cardTodayDate {
+      font-size: 20px;
+  }
